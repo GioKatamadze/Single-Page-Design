@@ -38,27 +38,35 @@
             <h2>I’m Amy, and I’d love to work on your next project</h2>
             <p>I love working with others to create beautiful design solutions. I’ve designed everything from brand
                 illustrations to complete mobile apps. I’m also handy with a camera!</p>
-            <div class="button btn-orange">Free Consultation</div>
+            <div class="button btn-orange" id="btn2">Free Consultation</div>
         </div>
     </div>
 
 
     <div class="sliderWrapper">
         <h2>My Work</h2>
+
+
         <div class="sliderBox">
-            <img class="slide slide1" src="assets/image-slide-1.jpg" alt="Image">
-            <img class="slide slide2" src="assets/image-slide-2.jpg" alt="Image">
-            <img class="slide slide3" src="assets/image-slide-3.jpg" alt="Image">
-            <img class="slide slide4" src="assets/image-slide-4.jpg" alt="Image">
-            <img class="slide slide5" src="assets/image-slide-5.jpg" alt="Image">
+
+
+            <img class="slide slide1" id="slide1" tabindex="1" src="assets/image-slide-1.jpg" alt="Image">
+            <img class="slide slide2" id="slide2" tabindex="2" src="assets/image-slide-2.jpg" alt="Image">
+            <img class="slide slide3" id="slide3" tabindex="3" src="assets/image-slide-3.jpg" alt="Image">
+            <img class="slide slide4" id="slide4" tabindex="4" src="assets/image-slide-4.jpg" alt="Image">
+            <img class="slide slide5" id="slide5" tabindex="5" src="assets/image-slide-5.jpg" alt="Image">
         </div>
         <div class="sliderArrows">
-            <div class="arrowLeft">
-                <img src="assets/icon-arrow-left.svg" alt="Arrow left">
-            </div>
-            <div class="arrowRight">
-                <img src="assets/icon-arrow-right.svg" alt="Arrow right">
-            </div>
+            <a class="prev">
+                <div class="arrowLeft" id="arrowLeft">
+                    <img src="assets/icon-arrow-left.svg" alt="Arrow left">
+                </div>
+            </a>
+            <a class="next">
+                <div class="arrowRight" id="arrowRight">
+                    <img src="assets/icon-arrow-right.svg" alt="Arrow right">
+                </div>
+            </a>
         </div>
     </div>
 
@@ -73,10 +81,10 @@
 
     <div class="footer">
         <img src="assets/logo.svg" alt="Company logo">
-        <div class="button btn-black">Free Consultation</div>
+        <div class="button btn-black" id="btn3">Free Consultation</div>
     </div>
 
-
+    <script src="sliderScript.js"></script>
 </body>
 
 </html>
