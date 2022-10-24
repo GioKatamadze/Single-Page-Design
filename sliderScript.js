@@ -40,7 +40,7 @@ function validator() {
 
 
 
-
+validator();
 arrowRight.addEventListener("click", () => {
   goRight();
   validator();
