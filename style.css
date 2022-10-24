@@ -14,7 +14,12 @@ body {
 
 html {
     scroll-behavior: smooth;
-  }
+}
+
+.disabled {
+    opacity: .5;
+    background-color: #030303;
+}
 
 .header, .footer {
     width: 100%;
